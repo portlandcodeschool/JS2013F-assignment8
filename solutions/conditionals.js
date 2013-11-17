@@ -1,11 +1,22 @@
 function isEven (num) {
 
-  // implement me!
+	if (num % 2 === 0) {
+		return true; 
+	} else {
+		return false;
+	}
 
-  return num;
+
 }
 
 function isBeep (str) {
+
+	if (str === "beep") {
+		return true;
+	} else {
+		return false;
+	}
+
 
   // implement me!
 

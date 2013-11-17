@@ -1,15 +1,20 @@
 function isEven (num) {
 
-  // implement me!
+if (num % 2 == 0){
 
-  return num;
+  return true;
+} else{
+	return false;
+}
 }
 
 function isBeep (str) {
 
-  // implement me!
-
-  return str;
+if (str === "beep"){
+  return true;
+} else{
+	return false;
+}
 }
 
 module.exports.isEven = isEven;

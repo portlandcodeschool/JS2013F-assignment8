@@ -4,9 +4,9 @@ var conditionals = require('./solutions/conditionals');
 var loops        = require('./solutions/loops');
 
 test('Example test', function (t) {
-  t.equal(4, 5);
+  t.equal(5, 5);
 
-  t.notEqual(1, 1);
+  t.notEqual(1, 2);
 
   t.end();
 });
@@ -14,16 +14,16 @@ test('Example test', function (t) {
 test('Another example test', function (t) {
   t.plan(2)
 
-  t.equal("Blah", "Blag");
+  t.equal("Blah", "Blah");
 
   setTimeout(function () {
-    t.notEqual("Hello", "Hello");
+    t.notEqual("Hello", "Goodbye");
   }, 500);
 
 });
 
 test('should convert decimals to roman numerals', function (t) {
-  t.equal("VII", romnum.decimalToRoman(7));
+  t.equal(romnum.decimalToRoman(7), "VII");
 
   t.equal(romnum.decimalToRoman(1998), "MCMXCVIII");
 

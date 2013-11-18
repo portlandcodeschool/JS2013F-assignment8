@@ -55,24 +55,23 @@ return newArray;
 
 
 module.exports.isPalindrome = function isPalindrome (str) {
-
   var reverseStr = "";
 
-  
-  	for (var i = str.length - 1; i >= 0; i--) {
+    for (var i = str.length - 1; i >= 0; i--) {
   	reverseStr += str[i];
    	};
-    
+
     trueFalse();
     return reverseStr;
+    
 
-
-    function trueFalse (str, reverseStr) {
+    function trueFalse () {
       if (str === reverseStr) {
 		console.log(true);     
 	  } else {
 		console.log(false)      
 	  }
     };  
-
 };
+
+

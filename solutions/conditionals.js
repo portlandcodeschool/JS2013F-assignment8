@@ -1,15 +1,12 @@
 function isEven (num) {
 
-  // implement me!
-
-  return num;
+  return num % 2 === 0;
 }
 
 function isBeep (str) {
 
-  // implement me!
+  return str === "beep";
 
-  return str;
 }
 
 module.exports.isEven = isEven;

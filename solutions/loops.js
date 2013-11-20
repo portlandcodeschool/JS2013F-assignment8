@@ -29,42 +29,6 @@ module.exports.capitalizeEveryOther = function capitalizeEveryOther (str) {
 return newStr;
 }
 
-//   str = str.toLowerCase();
-//   var newStr = [];
-//   var blahStr = str.split("");
-//   for (var i = 0; i < str.length; i++) {
-//     if (/[a-zA-Z]/.test(blahStr[i]) && i % 2 !== 0) {
-//       blahStr[i] = blahStr[i].toUpperCase();
-//       newStr.push(blahStr[i]);
-//     } else if (/[a-zA-Z]/.test(blahStr[i]) || i % 2 == 0) {
-//       newStr.push(blahStr[i]);
-//       i += 1;
-//     }  else if (/\W/.test(blahStr[i])) {
-
-//       newStr.push(blahStr[i]);
-//       i += 3;
-//     }
-//   }
-//   return newStr.join("");
-// }
-
-
-
-
- /*var charIgnore (i) {
-  do {i + 1; while (str[i] !== (/\w/));} 
-}*/
-// if (i == (/\W/)){
-//   str = str;
-// } else if (str[i] % 2 !== 0){
-//  	str[i].replace(i,i.toUpperCase());
-//  } else if (str[i] % 2 == 0){
-//   str[i].replace(i,i.toLowerCase());
-// }
-
-// }
-
-
 
 
 module.exports.capitalizeVowels = function capitalizeVowels (str) {
